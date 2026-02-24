@@ -1,0 +1,193 @@
+# ==========================================
+# Python & Virtual Environment
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# ==========================================
+# IDE & Editor
+# ==========================================
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# vim
+.swp
+.swo
+*~
+
+# Windows
+Thumbs.db
+.DS_Store
+
+# ==========================================
+# Project-Specific Files
+# ==========================================
+# Output images & tiles
+output_tiles/
+output/
+results/
+*.png
+*.jpg
+*.jpeg
+*.webp
+(except image/ folder)
+
+# Temporary translation checkpoints
+translations.json.bak
+translations.backup.json
+
+# Model cache files (EasyOCR, BERT, etc.)
+.cache/
+cache/
+models/
+*.pt
+*.bin
+*.pkl
+
+# Temporary/debug files
+debug/
+temp/
+tmp/
+test_outputs/
+result_*.png
+result_*.jpg
+
+# ==========================================
+# Jupyter Notebooks
+# ==========================================
+.ipynb_checkpoints/
+*.ipynb
+.jupyterlab-settings/
+
+# ==========================================
+# OS-Specific
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+
+# ==========================================
+# Dependency Management
+# ==========================================
+# uv lock file (if using uv)
+# Uncomment below if you want to exclude uv.lock
+# uv.lock
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================================
+# Large Files & Datasets
+# ==========================================
+# Keep image/ folder but ignore large dataset files
+*.tar
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# ==========================================
+# Logs & Reports
+# ==========================================
+*.log
+*.out
+logs/
+reports/
+htmlcov/
+.coverage
+.pytest_cache/
+
+# ==========================================
+# Environment Secrets (IMPORTANT)
+# ==========================================
+.env.local
+.env.*.local
+.env.production.local
+secrets.json
+config.local.json
+
+# ==========================================
+# Poetry (if using Poetry instead of uv)
+# ==========================================
+poetry.lock
+
+# ==========================================
+# Miscellaneous
+# ==========================================
+# OS temp files
+*.tmp
+*.bak
+*.backup
+*~
+
+# Node.js (if running JavaScript tools alongside Python)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# macOS specific
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+
+# ==========================================
+# Custom Project Ignores
+# ==========================================
+# Add your custom patterns below:
+# Example: ignore specific developer folders
+# my_test_files/
+# experimental/
