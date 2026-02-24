@@ -54,7 +54,7 @@ class ContentAwareSlicer:
             os.makedirs(output_dir)
         img = cv2.imread(image_path)
         if img is None:
-            raise FileNotFoundError(f"Cannot read image")
+            raise FileNotFoundError(f"Cannot read image {image_path}")
         height, width, _ = img.shape
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         edges = cv2.Canny(gray, 50, 150)
@@ -258,7 +258,7 @@ class Typesetter:
 # 4. Main Workflow (Human-in-the-Loop)
 # ==========================================
 if __name__ == "__main__":
-    target_image_path = "./output_tiles/02-optimized_009.png"
+    target_image_path = "./output_tiles/02-optimized_004.png"
     json_path = "translations.json"
 
     if not os.path.exists(target_image_path):
