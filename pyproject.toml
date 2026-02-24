@@ -1,0 +1,13 @@
+[project]
+name = "converter-ocr"
+version = "0.1.0"
+description = "OCR converter for manga/comics"
+requires-python = ">=3.8"
+dependencies = [
+    "opencv-python",
+    "numpy",
+    "pillow",
+    "easyocr>=1.7.2",
+    "deep-translator>=1.11.4",
+    "pythainlp>=5.2.0",
+]
