@@ -258,7 +258,7 @@ class Typesetter:
 # 4. Main Workflow (Human-in-the-Loop)
 # ==========================================
 if __name__ == "__main__":
-    target_image_path = "./output_tiles/02-optimized_004.png"
+    target_image_path = "./output_tiles/03/03_002.png"
     json_path = "translations.json"
 
     if not os.path.exists(target_image_path):
@@ -296,7 +296,9 @@ if __name__ == "__main__":
         current_img = original_img.copy()
 
         cleaner = InpaintCleaner()
-        typesetter = Typesetter(font_path="./THSarabunNew Bold.ttf", base_font_size=28)
+        typesetter = Typesetter(
+            font_path="./fonts/THSarabunNew Bold.ttf", base_font_size=28
+        )
 
         for item in edited_data:
             print(f"-> Injecting text: '{item['translated_text']}'")

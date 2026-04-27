@@ -565,3 +565,5 @@ Bundled fonts (Sarabun, THSarabunNew) are licensed under the **SIL Open Font Lic
 ---
 
 *Last Updated: 2026-04-27 · Maintained by the TaiChi112 team*
+
+## 🚀 Made with ❤️ for manga/webtoon translators
